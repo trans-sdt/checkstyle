@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE suppressions PUBLIC
+        "-//Checkstyle//DTD SuppressionFilter Configuration 1.2//EN"
+        "https://checkstyle.org/dtds/suppressions_1_2.dtd">
+<suppressions>
+    <suppress checks="LineLength"
+              files=".*Test\.java|Queue\.java|QueueNames\.java|.*TestDataProvider\.java"/>
+    <suppress checks="AbbreviationAsWordInName"
+              files=".*Test\.java"/>
+    <suppress checks="MissingJavadocMethod"
+              files=".*Test\.java|.*Repository\.java|.*Exception\.java"/>
+    <suppress checks="FileTabCharacter"
+              files=".*TestDataProvider\.java|.*Test\.java"/>
+    <suppress checks="Indentation"
+              files=".*Test\.java|.*Router\.java"/>
+    <suppress checks="ParameterName"
+              files=".*MockImpl\.java"/>
+    <suppress checks="LineLength"
+              files=".*Router\.java"/>
+    <suppress checks="VariableDeclarationUsageDistance" files=".*Test\.java"/>
+</suppressions>
