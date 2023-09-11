@@ -257,7 +257,7 @@
         </module>
         <module name="AbbreviationAsWordInName">
             <property name="ignoreFinal" value="false"/>
-            <property name="allowedAbbreviations" value="AAA,D,XX,IT,API,XUser"/>
+            <property name="allowedAbbreviations" value="AAA,D,XX,IT,API,X"/>
             <property name="allowedAbbreviationLength" value="0"/>
             <property name="tokens"
                       value="CLASS_DEF, INTERFACE_DEF, ENUM_DEF, ANNOTATION_DEF, ANNOTATION_FIELD_DEF,
