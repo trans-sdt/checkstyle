@@ -356,5 +356,8 @@
                       default="checkstyle-xpath-suppressions.xml"/>
             <property name="optional" value="true"/>
         </module>
+        <module name="SuppressionFilter">
+            <property name="file" value="https://raw.githubusercontent.com/trans-sdt/checkstyle/main/checkstyle-suppressions.xml"/>
+        </module>
     </module>
 </module>
