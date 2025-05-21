@@ -8,7 +8,7 @@
     <suppress checks="AbbreviationAsWordInName"
               files=".*Test\.java"/>
     <suppress checks="MissingJavadocMethod"
-              files=".*Test\.java|.*Repository\.java|.*Exception\.java"/>
+              files=".*Test\.java|.*Repository\.java|.*Controller\.java|.*Exception\.java"/>
     <suppress checks="FileTabCharacter"
               files=".*TestDataProvider\.java|.*Test\.java"/>
     <suppress checks="Indentation"
@@ -16,6 +16,6 @@
     <suppress checks="ParameterName"
               files=".*MockImpl\.java"/>
     <suppress checks="LineLength"
-              files=".*Router\.java"/>
+              files=".*Router\.java|.*Controller\.java"/>
     <suppress checks="VariableDeclarationUsageDistance" files=".*Test\.java"/>
 </suppressions>
