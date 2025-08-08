@@ -31,9 +31,7 @@
     <module name="SuppressionFilter">
         <property name="file" value="https://raw.githubusercontent.com/trans-sdt/checkstyle/main/checkstyle-suppressions.xml"/>
     </module>
-    <module name="SuppressionAnnotationFilter">
-        <property name="annotations" value="SuppressWarnings"/>
-    </module>
+    <module name="SuppressWarningsFilter" />
 
     <!-- Checks for whitespace                               -->
     <!-- See http://checkstyle.org/config_whitespace.html -->
@@ -49,6 +47,7 @@
     </module>
 
     <module name="TreeWalker">
+        <module name="SuppressWarningsHolder" />
         <module name="OuterTypeFilename"/>
         <module name="IllegalTokenText">
             <property name="tokens" value="STRING_LITERAL, CHAR_LITERAL"/>
